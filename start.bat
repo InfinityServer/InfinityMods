@@ -1,0 +1,1 @@
+java -server -jar -Xms2G -Xmx10G -XX:+UseG1GC server.jar nogui

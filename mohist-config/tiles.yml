@@ -1,0 +1,163 @@
+# Welcome to Mohist tile tick configuration!
+# This opens up good TPS savings if used wisely.
+# 'overrides' section populates itself over time.
+# -=-=-=-=-
+# Simple usage cases:
+# 'skip-every: 50' - skips every 50th tick
+# 'skip-every: 0' - tick limiter is not applied (vanilla behaviour)
+# 'skip-every: 1' - tile will not tick at all (skips every 1st tick)
+# 'skip-every: default' - value is grabbed from 'defaults' section
+# Values in range of 0 up to 1000 can be used, you won't need more than that.
+# -=-=-=-=-
+
+defaults:
+  skip-every: 0
+overrides:
+  net-minecraft-tileentity-ChestTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-MobSpawnerTileEntity:
+    skip-every: default
+  vazkii-quark-content-world-tile-MonsterBoxTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-CampfireTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-SmokerTileEntity:
+    skip-every: default
+  vazkii-quark-content-building-tile-VariantChestTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-FurnaceTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-TrappedChestTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-BlastFurnaceTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-BeehiveTileEntity:
+    skip-every: default
+  vazkii-quark-content-building-tile-VariantTrappedChestTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-BrewingStandTileEntity:
+    skip-every: default
+  com-legacy-blue_skies-tile_entity-SkyChestTileEntity$DuskChestTileEntity:
+    skip-every: default
+  com-legacy-blue_skies-tile_entity-SkyChestTileEntity$FrostbrightChestTileEntity:
+    skip-every: default
+  com-legacy-blue_skies-tile_entity-SkyChestTileEntity$BluebrightChestTileEntity:
+    skip-every: default
+  appeng-tile-storage-SkyChestTileEntity:
+    skip-every: default
+  com-legacy-blue_skies-tile_entity-SkyChestTileEntity$LunarChestTileEntity:
+    skip-every: default
+  com-github-alexthe666-iceandfire-entity-tile-TileEntityPixieHouse:
+    skip-every: default
+  blusunrize-immersiveengineering-common-blocks-metal-EnergyMeterTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-BellTileEntity:
+    skip-every: default
+  com-legacy-blue_skies-tile_entity-SkyChestTileEntity$StarlitChestTileEntity:
+    skip-every: default
+  com-ma-blocks-tileentities-ManaweavingAltarTile:
+    skip-every: default
+  com-legacy-blue_skies-tile_entity-SkyChestTileEntity$MapleChestTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-SkullTileEntity:
+    skip-every: default
+  com-github-alexthe666-iceandfire-entity-tile-TileEntityGhostChest:
+    skip-every: default
+  com-simibubi-create-content-contraptions-components-millstone-MillstoneTileEntity:
+    skip-every: default
+  com-simibubi-create-content-contraptions-components-waterwheel-WaterWheelTileEntity:
+    skip-every: default
+  com-simibubi-create-content-contraptions-relays-gearbox-GearboxTileEntity:
+    skip-every: default
+  com-simibubi-create-content-contraptions-relays-elementary-SimpleKineticTileEntity:
+    skip-every: default
+  slimeknights-tconstruct-smeltery-tileentity-CastingTileEntity$Table:
+    skip-every: default
+  slimeknights-tconstruct-smeltery-tileentity-controller-MelterTileEntity:
+    skip-every: default
+  slimeknights-tconstruct-smeltery-tileentity-FaucetTileEntity:
+    skip-every: default
+  com-legacy-blue_skies-tile_entity-SkyChestTileEntity$CherryChestTileEntity:
+    skip-every: default
+  hellfirepvp-astralsorcery-common-tile-TileCollectorCrystal:
+    skip-every: default
+  com-ma-blocks-tileentities-RuneForgeTile:
+    skip-every: default
+  net-minecraft-tileentity-PistonTileEntity:
+    skip-every: default
+  com-github-alexthe666-iceandfire-entity-tile-TileEntityPodium:
+    skip-every: default
+  com-github-alexthe666-iceandfire-entity-tile-TileEntityLectern:
+    skip-every: default
+  com-github-alexthe666-iceandfire-entity-tile-TileEntityJar:
+    skip-every: default
+  blusunrize-immersiveengineering-common-blocks-stone-CokeOvenTileEntity:
+    skip-every: default
+  vazkii-quark-addons-oddities-tile-MatrixEnchantingTableTileEntity:
+    skip-every: default
+  slimeknights-tconstruct-smeltery-tileentity-CastingTileEntity$Basin:
+    skip-every: default
+  mekanism-common-tile-TileEntityFluidTank:
+    skip-every: default
+  mekanism-common-tile-machine-TileEntityMetallurgicInfuser:
+    skip-every: default
+  slimeknights-tconstruct-smeltery-tileentity-controller-SmelteryTileEntity:
+    skip-every: default
+  com-legacy-blue_skies-tile_entity-SnowcapOvenTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-HopperTileEntity:
+    skip-every: default
+  vazkii-botania-common-block-tile-TileAltar:
+    skip-every: default
+  vazkii-botania-common-block-subtile-SubTilePureDaisy:
+    skip-every: default
+  vazkii-botania-common-block-tile-mana-TileSpreader:
+    skip-every: default
+  vazkii-botania-common-block-tile-mana-TilePool:
+    skip-every: default
+  vazkii-botania-common-block-subtile-generating-SubTileEndoflame:
+    skip-every: default
+  vazkii-botania-common-block-tile-TileOpenCrate:
+    skip-every: default
+  vazkii-botania-common-block-tile-TileRuneAltar:
+    skip-every: default
+  vazkii-botania-common-block-tile-TileTerraPlate:
+    skip-every: default
+  com-ma-blocks-tileentities-InscriptionTableTile:
+    skip-every: default
+  mekanism-common-tile-machine-TileEntityCrusher:
+    skip-every: default
+  mekanism-generators-common-tile-TileEntityBioGenerator:
+    skip-every: default
+  mekanism-common-tile-transmitter-TileEntityUniversalCable:
+    skip-every: default
+  mekanism-common-tile-machine-TileEntityEnrichmentChamber:
+    skip-every: default
+  mekanism-common-tile-machine-TileEntityEnergizedSmelter:
+    skip-every: default
+  vazkii-botania-common-block-tile-TileAlfPortal:
+    skip-every: default
+  com-github-alexthe666-alexsmobs-tileentity-TileEntityLeafcutterAnthill:
+    skip-every: default
+  vazkii-botania-common-block-tile-TilePylon:
+    skip-every: default
+  com-ma-blocks-tileentities-ManaweaveProjectorTile:
+    skip-every: default
+  vazkii-botania-common-block-subtile-functional-SubTileOrechidIgnem:
+    skip-every: default
+  com-simibubi-create-content-contraptions-components-fan-EncasedFanTileEntity:
+    skip-every: default
+  com-github-alexthe666-iceandfire-entity-tile-TileEntityDreadSpawner:
+    skip-every: default
+  com-github-alexthe666-iceandfire-entity-tile-TileEntityDragonforgeInput:
+    skip-every: default
+  mekanism-common-tile-machine-TileEntityElectrolyticSeparator:
+    skip-every: default
+  mekanism-common-tile-TileEntityEnergyCube:
+    skip-every: default
+  mekanism-common-tile-factory-TileEntityItemStackToItemStackFactory:
+    skip-every: default
+  net-minecraft-tileentity-EnderChestTileEntity:
+    skip-every: default
+  net-minecraft-tileentity-BeaconTileEntity:
+    skip-every: default
